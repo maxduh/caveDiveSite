@@ -22,7 +22,7 @@ body{
 
 }
 .bot{
-    width: 50vw;
+    width: 40vw;
 }
 @media (min-width: 100vh) {
     .bot{
@@ -132,9 +132,19 @@ box-shadow: inset 10px 10px 25px 0px rgba(0,0,0,0.75);
 }
 .about-zone{
     background-color: red;
-    margin: 40vh 0;
+    margin: 40vh 0 0 0;
+    padding: 1vh;
 }
 .about-header{
+    margin: 0;
     padding: 1vh;
     font-size: 5vh;
+}
+@media (max-width: 100vh) {
+    .about-zone{
+        margin: 80vh 0 0 0;
+    }
+    .download-zone{
+        margin: -40vh 0;
+    }
 }
